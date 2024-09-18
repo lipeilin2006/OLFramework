@@ -1,0 +1,34 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MemoryPack.Generator" Version="1.21.1">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\kcp2k\kcp2k.csproj" />
+    <ProjectReference Include="..\OLFramework.Data\OLFramework.Data.csproj" />
+    <ProjectReference Include="..\OLFramework.Utils\OLFramework.Utils.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="MemoryPack">
+      <HintPath>..\..\MemoryPackCustom\src\MemoryPack\bin\Release\net8.0\MemoryPack.dll</HintPath>
+    </Reference>
+    <Reference Include="MemoryPack.Core">
+      <HintPath>..\..\MemoryPackCustom\src\MemoryPack\bin\Release\net8.0\MemoryPack.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.37f1c1\Editor\Data\Managed\UnityEngine.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

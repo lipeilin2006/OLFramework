@@ -1,0 +1,11 @@
+C:\Users\29530\source\repos\doge\kcp2k\bin\Release\net8.0\kcp2k.deps.json
+C:\Users\29530\source\repos\doge\kcp2k\bin\Release\net8.0\kcp2k.dll
+C:\Users\29530\source\repos\doge\kcp2k\bin\Release\net8.0\kcp2k.pdb
+C:\Users\29530\source\repos\doge\kcp2k\obj\Release\net8.0\kcp2k.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\29530\source\repos\doge\kcp2k\obj\Release\net8.0\kcp2k.AssemblyInfoInputs.cache
+C:\Users\29530\source\repos\doge\kcp2k\obj\Release\net8.0\kcp2k.AssemblyInfo.cs
+C:\Users\29530\source\repos\doge\kcp2k\obj\Release\net8.0\kcp2k.csproj.CoreCompileInputs.cache
+C:\Users\29530\source\repos\doge\kcp2k\obj\Release\net8.0\kcp2k.dll
+C:\Users\29530\source\repos\doge\kcp2k\obj\Release\net8.0\refint\kcp2k.dll
+C:\Users\29530\source\repos\doge\kcp2k\obj\Release\net8.0\kcp2k.pdb
+C:\Users\29530\source\repos\doge\kcp2k\obj\Release\net8.0\ref\kcp2k.dll

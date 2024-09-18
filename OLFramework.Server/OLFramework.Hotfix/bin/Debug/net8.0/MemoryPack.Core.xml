@@ -1,0 +1,93 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>MemoryPack.Core</name>
+    </assembly>
+    <members>
+        <member name="M:MemoryPack.MemoryPackableAttribute.#ctor(MemoryPack.GenerateType)">
+            <summary>
+            [generateType, (VersionTolerant or CircularReference) ? SerializeLayout.Explicit : SerializeLayout.Sequential]
+            </summary>
+            <param name="generateType"></param>
+        </member>
+        <member name="M:MemoryPack.MemoryPackableAttribute.#ctor(MemoryPack.SerializeLayout)">
+            <summary>
+            [GenerateType.Object, serializeLayout]
+            </summary>
+        </member>
+        <member name="M:MemoryPack.Formatters.TypeFormatter.ShortTypeNameRegex">
+            <remarks>
+            Pattern:<br/>
+            <code>, Version=\\d+.\\d+.\\d+.\\d+, Culture=[\\w-]+, PublicKeyToken=(?:null|[a-f0-9]{16})</code><br/>
+            Explanation:<br/>
+            <code>
+            ○ Match the string ", Version=".<br/>
+            ○ Match a Unicode digit greedily at least once.<br/>
+            ○ Match any character other than '\n'.<br/>
+            ○ Match a Unicode digit greedily at least once.<br/>
+            ○ Match any character other than '\n'.<br/>
+            ○ Match a Unicode digit greedily at least once.<br/>
+            ○ Match any character other than '\n'.<br/>
+            ○ Match a Unicode digit atomically at least once.<br/>
+            ○ Match the string ", Culture=".<br/>
+            ○ Match a character in the set [-\w] atomically at least once.<br/>
+            ○ Match the string ", PublicKeyToken=".<br/>
+            ○ Match with 2 alternative expressions, atomically.<br/>
+                ○ Match the string "null".<br/>
+                ○ Match a character in the set [0-9a-f] exactly 16 times.<br/>
+            </code>
+            </remarks>
+        </member>
+        <member name="M:MemoryPack.Internal.CollectionsMarshalEx.CreateSpan``1(System.Collections.Generic.List{``0},System.Int32)">
+            <summary>
+            similar as AsSpan but modify size to create fixed-size span.
+            </summary>
+        </member>
+        <member name="M:MemoryPack.MemoryPackReader.DangerousTryReadCollectionHeader(System.Int32@)">
+            <summary>
+            no validate collection size, be careful to use.
+            </summary>
+        </member>
+        <member name="T:System.Text.RegularExpressions.Generated.ShortTypeNameRegex_0">
+            <summary>Custom <see cref="T:System.Text.RegularExpressions.Regex"/>-derived type for the ShortTypeNameRegex method.</summary>
+        </member>
+        <member name="F:System.Text.RegularExpressions.Generated.ShortTypeNameRegex_0.Instance">
+            <summary>Cached, thread-safe singleton instance.</summary>
+        </member>
+        <member name="M:System.Text.RegularExpressions.Generated.ShortTypeNameRegex_0.#ctor">
+            <summary>Initializes the instance.</summary>
+        </member>
+        <member name="T:System.Text.RegularExpressions.Generated.ShortTypeNameRegex_0.RunnerFactory">
+            <summary>Provides a factory for creating <see cref="T:System.Text.RegularExpressions.RegexRunner"/> instances to be used by methods on <see cref="T:System.Text.RegularExpressions.Regex"/>.</summary>
+        </member>
+        <member name="M:System.Text.RegularExpressions.Generated.ShortTypeNameRegex_0.RunnerFactory.CreateInstance">
+            <summary>Creates an instance of a <see cref="T:System.Text.RegularExpressions.RegexRunner"/> used by methods on <see cref="T:System.Text.RegularExpressions.Regex"/>.</summary>
+        </member>
+        <member name="T:System.Text.RegularExpressions.Generated.ShortTypeNameRegex_0.RunnerFactory.Runner">
+            <summary>Provides the runner that contains the custom logic implementing the specified regular expression.</summary>
+        </member>
+        <member name="M:System.Text.RegularExpressions.Generated.ShortTypeNameRegex_0.RunnerFactory.Runner.Scan(System.ReadOnlySpan{System.Char})">
+            <summary>Scan the <paramref name="inputSpan"/> starting from base.runtextstart for the next match.</summary>
+            <param name="inputSpan">The text being scanned by the regular expression.</param>
+        </member>
+        <member name="M:System.Text.RegularExpressions.Generated.ShortTypeNameRegex_0.RunnerFactory.Runner.TryFindNextPossibleStartingPosition(System.ReadOnlySpan{System.Char})">
+            <summary>Search <paramref name="inputSpan"/> starting from base.runtextpos for the next location a match could possibly start.</summary>
+            <param name="inputSpan">The text being scanned by the regular expression.</param>
+            <returns>true if a possible match was found; false if no more matches are possible.</returns>
+        </member>
+        <member name="M:System.Text.RegularExpressions.Generated.ShortTypeNameRegex_0.RunnerFactory.Runner.TryMatchAtCurrentPosition(System.ReadOnlySpan{System.Char})">
+            <summary>Determine whether <paramref name="inputSpan"/> at base.runtextpos is a match for the regular expression.</summary>
+            <param name="inputSpan">The text being scanned by the regular expression.</param>
+            <returns>true if the regular expression matches at the current position; otherwise, false.</returns>
+        </member>
+        <member name="T:System.Text.RegularExpressions.Generated.Utilities">
+            <summary>Helper methods used by generated <see cref="T:System.Text.RegularExpressions.Regex"/>-derived implementations.</summary>
+        </member>
+        <member name="F:System.Text.RegularExpressions.Generated.Utilities.s_defaultTimeout">
+            <summary>Default timeout value set in <see cref="T:System.AppContext"/>, or <see cref="F:System.Text.RegularExpressions.Regex.InfiniteMatchTimeout"/> if none was set.</summary>
+        </member>
+        <member name="F:System.Text.RegularExpressions.Generated.Utilities.s_hasTimeout">
+            <summary>Whether <see cref="F:System.Text.RegularExpressions.Generated.Utilities.s_defaultTimeout"/> is non-infinite.</summary>
+        </member>
+    </members>
+</doc>

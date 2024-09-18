@@ -1,0 +1,11 @@
+D:\OLFramework\OLFramework.Server\OLFramework.Utils\bin\Debug\net8.0\OLFramework.Utils.deps.json
+D:\OLFramework\OLFramework.Server\OLFramework.Utils\bin\Debug\net8.0\OLFramework.Utils.dll
+D:\OLFramework\OLFramework.Server\OLFramework.Utils\bin\Debug\net8.0\OLFramework.Utils.pdb
+D:\OLFramework\OLFramework.Server\OLFramework.Utils\obj\Debug\net8.0\OLFramework.Utils.GeneratedMSBuildEditorConfig.editorconfig
+D:\OLFramework\OLFramework.Server\OLFramework.Utils\obj\Debug\net8.0\OLFramework.Utils.AssemblyInfoInputs.cache
+D:\OLFramework\OLFramework.Server\OLFramework.Utils\obj\Debug\net8.0\OLFramework.Utils.AssemblyInfo.cs
+D:\OLFramework\OLFramework.Server\OLFramework.Utils\obj\Debug\net8.0\OLFramework.Utils.csproj.CoreCompileInputs.cache
+D:\OLFramework\OLFramework.Server\OLFramework.Utils\obj\Debug\net8.0\OLFramework.Utils.dll
+D:\OLFramework\OLFramework.Server\OLFramework.Utils\obj\Debug\net8.0\refint\OLFramework.Utils.dll
+D:\OLFramework\OLFramework.Server\OLFramework.Utils\obj\Debug\net8.0\OLFramework.Utils.pdb
+D:\OLFramework\OLFramework.Server\OLFramework.Utils\obj\Debug\net8.0\ref\OLFramework.Utils.dll

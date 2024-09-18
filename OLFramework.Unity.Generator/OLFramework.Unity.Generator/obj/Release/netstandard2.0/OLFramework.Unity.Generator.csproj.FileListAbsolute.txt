@@ -1,0 +1,10 @@
+D:\OLFramework\OLFramework.Unity.Generator\OLFramework.Unity.Generator\bin\Release\netstandard2.0\OLFramework.Unity.Generator.deps.json
+D:\OLFramework\OLFramework.Unity.Generator\OLFramework.Unity.Generator\bin\Release\netstandard2.0\OLFramework.Unity.Generator.dll
+D:\OLFramework\OLFramework.Unity.Generator\OLFramework.Unity.Generator\bin\Release\netstandard2.0\OLFramework.Unity.Generator.pdb
+D:\OLFramework\OLFramework.Unity.Generator\OLFramework.Unity.Generator\obj\Release\netstandard2.0\OLFramework.Unity.Generator.csproj.AssemblyReference.cache
+D:\OLFramework\OLFramework.Unity.Generator\OLFramework.Unity.Generator\obj\Release\netstandard2.0\OLFramework.Unity.Generator.GeneratedMSBuildEditorConfig.editorconfig
+D:\OLFramework\OLFramework.Unity.Generator\OLFramework.Unity.Generator\obj\Release\netstandard2.0\OLFramework.Unity.Generator.AssemblyInfoInputs.cache
+D:\OLFramework\OLFramework.Unity.Generator\OLFramework.Unity.Generator\obj\Release\netstandard2.0\OLFramework.Unity.Generator.AssemblyInfo.cs
+D:\OLFramework\OLFramework.Unity.Generator\OLFramework.Unity.Generator\obj\Release\netstandard2.0\OLFramework.Unity.Generator.csproj.CoreCompileInputs.cache
+D:\OLFramework\OLFramework.Unity.Generator\OLFramework.Unity.Generator\obj\Release\netstandard2.0\OLFramework.Unity.Generator.dll
+D:\OLFramework\OLFramework.Unity.Generator\OLFramework.Unity.Generator\obj\Release\netstandard2.0\OLFramework.Unity.Generator.pdb

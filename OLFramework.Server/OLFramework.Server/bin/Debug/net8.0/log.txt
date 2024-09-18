@@ -1,0 +1,657 @@
+[UTC 2024-08-19 10:59:09] : Server started at port : 12345
+[UTC 2024-08-19 10:59:14] : Player connected,NetID : 1837750170
+[UTC 2024-08-19 10:59:17] : OnData
+[UTC 2024-08-19 10:59:17] : Player data received,NetID : 1837750170,MessageID : 1457540638
+[UTC 2024-08-19 10:59:17] : Player request to join room,UID : 0,NetID : 1837750170,MessageID : 1457540638
+[UTC 2024-08-19 10:59:17] : Join Room
+[UTC 2024-08-19 10:59:17] : Get Matching Room
+[UTC 2024-08-19 10:59:17] : Create Room
+[UTC 2024-08-19 10:59:17] : Join Room 821847411
+[UTC 2024-08-19 10:59:17] : Send data length 30
+[UTC 2024-08-19 10:59:21] : OnData
+[UTC 2024-08-19 10:59:21] : System.IO.IOException: The process cannot access the file 'D:\OLFramework\OLFramework.Server\OLFramework.Server\bin\Debug\net8.0\log.txt' because it is being used by another process.
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.File.OpenHandle(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.File.WriteToFile(String path, FileMode mode, String contents, Encoding encoding)
+   at OLFramework.Core.Logger.Log(String message, LogLevel level) in D:\OLFramework\OLFramework.Server\OLFramework.Core\Logger.cs:line 33
+   at OLFramework.Core.OLServer.ProcessData() in D:\OLFramework\OLFramework.Server\OLFramework.Core\OLServer.cs:line 102
+[UTC 2024-08-19 10:59:37] : Server stopped
+[UTC 2024-08-19 10:59:59] : Server started at port : 12345
+[UTC 2024-08-19 11:00:06] : Player connected,NetID : 1189190677
+[UTC 2024-08-19 11:00:10] : OnData
+[UTC 2024-08-19 11:00:10] : Player data received,NetID : 1189190677,MessageID : 920634266
+[UTC 2024-08-19 11:00:10] : Player request to join room,UID : 0,NetID : 1189190677,MessageID : 920634266
+[UTC 2024-08-19 11:00:10] : Join Room
+[UTC 2024-08-19 11:00:10] : Get Matching Room
+[UTC 2024-08-19 11:00:10] : Create Room
+[UTC 2024-08-19 11:00:10] : Join Room 286882194
+[UTC 2024-08-19 11:00:10] : Send data length 30
+[UTC 2024-08-19 11:00:14] : Player data received,NetID : 1189190677,MessageID : 1820668851
+[UTC 2024-08-19 11:00:14] : OnData
+[UTC 2024-08-19 11:00:14] : Send data length 30
+[UTC 2024-08-19 11:00:14] : OnData
+[UTC 2024-08-19 11:00:14] : Player data received,NetID : 1189190677,MessageID : 0
+[UTC 2024-08-19 11:00:14] : SyncVar Message
+[UTC 2024-08-19 11:00:14] : OnData
+[UTC 2024-08-19 11:00:14] : Player data received,NetID : 1189190677,MessageID : 0
+[UTC 2024-08-19 11:00:14] : SyncVar Message
+[UTC 2024-08-19 11:00:14] : OnData
+[UTC 2024-08-19 11:00:14] : System.IO.IOException: The process cannot access the file 'D:\OLFramework\OLFramework.Server\OLFramework.Server\bin\Debug\net8.0\log.txt' because it is being used by another process.
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.File.OpenHandle(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.File.WriteToFile(String path, FileMode mode, String contents, Encoding encoding)
+   at OLFramework.Core.Logger.Log(String message, LogLevel level) in D:\OLFramework\OLFramework.Server\OLFramework.Core\Logger.cs:line 33
+   at OLFramework.Core.OLServer.ProcessData() in D:\OLFramework\OLFramework.Server\OLFramework.Core\OLServer.cs:line 102
+[UTC 2024-08-19 11:00:14] : Player data received,NetID : 1189190677,MessageID : 0
+[UTC 2024-08-19 11:00:14] : SyncVar Message
+[UTC 2024-08-19 11:00:14] : OnData
+[UTC 2024-08-19 11:00:14] : Player data received,NetID : 1189190677,MessageID : 0
+[UTC 2024-08-19 11:00:14] : OnData
+[UTC 2024-08-19 11:00:14] : SyncVar Message
+[UTC 2024-08-19 11:00:14] : OnData
+[UTC 2024-08-19 11:00:14] : System.IO.IOException: The process cannot access the file 'D:\OLFramework\OLFramework.Server\OLFramework.Server\bin\Debug\net8.0\log.txt' because it is being used by another process.
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.File.OpenHandle(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.File.WriteToFile(String path, FileMode mode, String contents, Encoding encoding)
+   at OLFramework.Core.Logger.Log(String message, LogLevel level) in D:\OLFramework\OLFramework.Server\OLFramework.Core\Logger.cs:line 33
+   at OLFramework.Core.OLServer.ProcessData() in D:\OLFramework\OLFramework.Server\OLFramework.Core\OLServer.cs:line 102
+[UTC 2024-08-19 11:00:14] : Player data received,NetID : 1189190677,MessageID : 0
+[UTC 2024-08-19 11:00:14] : SyncVar Message
+[UTC 2024-08-19 11:00:14] : System.IO.IOException: The process cannot access the file 'D:\OLFramework\OLFramework.Server\OLFramework.Server\bin\Debug\net8.0\log.txt' because it is being used by another process.
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.File.OpenHandle(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.File.WriteToFile(String path, FileMode mode, String contents, Encoding encoding)
+   at OLFramework.Core.Logger.Log(String message, LogLevel level) in D:\OLFramework\OLFramework.Server\OLFramework.Core\Logger.cs:line 33
+   at OLFramework.Core.OLServer.OnData(Int32 netid, ArraySegment`1 data, KcpChannel channel) in D:\OLFramework\OLFramework.Server\OLFramework.Core\OLServer.cs:line 85
+[UTC 2024-08-19 11:00:14] : Player data received,NetID : 1189190677,MessageID : 0
+[UTC 2024-08-19 11:00:14] : OnData
+[UTC 2024-08-19 11:00:14] : SyncVar Message
+[UTC 2024-08-19 11:00:14] : OnData
+[UTC 2024-08-19 11:00:14] : System.IO.IOException: The process cannot access the file 'D:\OLFramework\OLFramework.Server\OLFramework.Server\bin\Debug\net8.0\log.txt' because it is being used by another process.
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.File.OpenHandle(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.File.WriteToFile(String path, FileMode mode, String contents, Encoding encoding)
+   at OLFramework.Core.Logger.Log(String message, LogLevel level) in D:\OLFramework\OLFramework.Server\OLFramework.Core\Logger.cs:line 33
+   at OLFramework.Core.OLServer.ProcessData() in D:\OLFramework\OLFramework.Server\OLFramework.Core\OLServer.cs:line 102
+[UTC 2024-08-19 11:00:14] : OnData
+[UTC 2024-08-19 11:00:14] : Player data received,NetID : 1189190677,MessageID : 0
+[UTC 2024-08-19 11:00:14] : SyncVar Message
+[UTC 2024-08-19 11:00:14] : OnData
+[UTC 2024-08-19 11:00:14] : Player data received,NetID : 1189190677,MessageID : 0
+[UTC 2024-08-19 11:00:14] : SyncVar Message
+[UTC 2024-08-19 11:00:14] : OnData
+[UTC 2024-08-19 11:00:14] : System.IO.IOException: The process cannot access the file 'D:\OLFramework\OLFramework.Server\OLFramework.Server\bin\Debug\net8.0\log.txt' because it is being used by another process.
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.File.OpenHandle(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.File.WriteToFile(String path, FileMode mode, String contents, Encoding encoding)
+   at OLFramework.Core.Logger.Log(String message, LogLevel level) in D:\OLFramework\OLFramework.Server\OLFramework.Core\Logger.cs:line 33
+   at OLFramework.Core.OLServer.ProcessData() in D:\OLFramework\OLFramework.Server\OLFramework.Core\OLServer.cs:line 102
+[UTC 2024-08-19 11:00:14] : Player data received,NetID : 1189190677,MessageID : 0
+[UTC 2024-08-19 11:00:14] : OnData
+[UTC 2024-08-19 11:00:14] : SyncVar Message
+[UTC 2024-08-19 11:00:14] : OnData
+[UTC 2024-08-19 11:00:14] : Player data received,NetID : 1189190677,MessageID : 0
+[UTC 2024-08-19 11:00:14] : SyncVar Message
+[UTC 2024-08-19 11:00:14] : OnData
+[UTC 2024-08-19 11:00:14] : Player data received,NetID : 1189190677,MessageID : 0
+[UTC 2024-08-19 11:00:14] : SyncVar Message
+[UTC 2024-08-19 11:00:14] : Player data received,NetID : 1189190677,MessageID : 0
+[UTC 2024-08-19 11:00:14] : OnData
+[UTC 2024-08-19 11:00:14] : SyncVar Message
+[UTC 2024-08-19 11:00:14] : OnData
+[UTC 2024-08-19 11:00:14] : System.IO.IOException: The process cannot access the file 'D:\OLFramework\OLFramework.Server\OLFramework.Server\bin\Debug\net8.0\log.txt' because it is being used by another process.
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.File.OpenHandle(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.File.WriteToFile(String path, FileMode mode, String contents, Encoding encoding)
+   at OLFramework.Core.Logger.Log(String message, LogLevel level) in D:\OLFramework\OLFramework.Server\OLFramework.Core\Logger.cs:line 33
+   at OLFramework.Core.OLServer.ProcessData() in D:\OLFramework\OLFramework.Server\OLFramework.Core\OLServer.cs:line 102
+[UTC 2024-08-19 11:00:15] : OnData
+[UTC 2024-08-19 11:00:15] : Player data received,NetID : 1189190677,MessageID : 0
+[UTC 2024-08-19 11:00:15] : SyncVar Message
+[UTC 2024-08-19 11:00:15] : OnData
+[UTC 2024-08-19 11:00:15] : Player data received,NetID : 1189190677,MessageID : 0
+[UTC 2024-08-19 11:00:15] : SyncVar Message
+[UTC 2024-08-19 11:00:15] : OnData
+[UTC 2024-08-19 11:00:15] : System.IO.IOException: The process cannot access the file 'D:\OLFramework\OLFramework.Server\OLFramework.Server\bin\Debug\net8.0\log.txt' because it is being used by another process.
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.File.OpenHandle(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.File.WriteToFile(String path, FileMode mode, String contents, Encoding encoding)
+   at OLFramework.Core.Logger.Log(String message, LogLevel level) in D:\OLFramework\OLFramework.Server\OLFramework.Core\Logger.cs:line 33
+   at OLFramework.Core.OLServer.ProcessData() in D:\OLFramework\OLFramework.Server\OLFramework.Core\OLServer.cs:line 102
+[UTC 2024-08-19 11:00:15] : OnData
+[UTC 2024-08-19 11:00:15] : System.IO.IOException: The process cannot access the file 'D:\OLFramework\OLFramework.Server\OLFramework.Server\bin\Debug\net8.0\log.txt' because it is being used by another process.
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.File.OpenHandle(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.File.WriteToFile(String path, FileMode mode, String contents, Encoding encoding)
+   at OLFramework.Core.Logger.Log(String message, LogLevel level) in D:\OLFramework\OLFramework.Server\OLFramework.Core\Logger.cs:line 33
+   at OLFramework.Core.OLServer.ProcessData() in D:\OLFramework\OLFramework.Server\OLFramework.Core\OLServer.cs:line 102
+[UTC 2024-08-19 11:00:15] : Player data received,NetID : 1189190677,MessageID : 0
+[UTC 2024-08-19 11:00:15] : SyncVar Message
+[UTC 2024-08-19 11:00:15] : System.IO.IOException: The process cannot access the file 'D:\OLFramework\OLFramework.Server\OLFramework.Server\bin\Debug\net8.0\log.txt' because it is being used by another process.
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.File.OpenHandle(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.File.WriteToFile(String path, FileMode mode, String contents, Encoding encoding)
+   at OLFramework.Core.Logger.Log(String message, LogLevel level) in D:\OLFramework\OLFramework.Server\OLFramework.Core\Logger.cs:line 33
+   at OLFramework.Core.OLServer.OnData(Int32 netid, ArraySegment`1 data, KcpChannel channel) in D:\OLFramework\OLFramework.Server\OLFramework.Core\OLServer.cs:line 85
+[UTC 2024-08-19 11:00:15] : OnData
+[UTC 2024-08-19 11:00:15] : Player data received,NetID : 1189190677,MessageID : 0
+[UTC 2024-08-19 11:00:15] : SyncVar Message
+[UTC 2024-08-19 11:00:15] : OnData
+[UTC 2024-08-19 11:00:15] : System.IO.IOException: The process cannot access the file 'D:\OLFramework\OLFramework.Server\OLFramework.Server\bin\Debug\net8.0\log.txt' because it is being used by another process.
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.File.OpenHandle(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.File.WriteToFile(String path, FileMode mode, String contents, Encoding encoding)
+   at OLFramework.Core.Logger.Log(String message, LogLevel level) in D:\OLFramework\OLFramework.Server\OLFramework.Core\Logger.cs:line 33
+   at OLFramework.Core.OLServer.ProcessData() in D:\OLFramework\OLFramework.Server\OLFramework.Core\OLServer.cs:line 102
+[UTC 2024-08-19 11:00:15] : OnData
+[UTC 2024-08-19 11:00:15] : System.IO.IOException: The process cannot access the file 'D:\OLFramework\OLFramework.Server\OLFramework.Server\bin\Debug\net8.0\log.txt' because it is being used by another process.
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.File.OpenHandle(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.File.WriteToFile(String path, FileMode mode, String contents, Encoding encoding)
+   at OLFramework.Core.Logger.Log(String message, LogLevel level) in D:\OLFramework\OLFramework.Server\OLFramework.Core\Logger.cs:line 33
+   at OLFramework.Core.OLServer.ProcessData() in D:\OLFramework\OLFramework.Server\OLFramework.Core\OLServer.cs:line 102
+[UTC 2024-08-19 11:00:15] : OnData
+[UTC 2024-08-19 11:00:15] : Player data received,NetID : 1189190677,MessageID : 0
+[UTC 2024-08-19 11:00:15] : SyncVar Message
+[UTC 2024-08-19 11:00:16] : Player data received,NetID : 1189190677,MessageID : 1318805871
+[UTC 2024-08-19 11:00:16] : OnData
+[UTC 2024-08-19 11:00:16] : Send data length 30
+[UTC 2024-08-19 11:00:16] : OnData
+[UTC 2024-08-19 11:00:16] : System.IO.IOException: The process cannot access the file 'D:\OLFramework\OLFramework.Server\OLFramework.Server\bin\Debug\net8.0\log.txt' because it is being used by another process.
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.File.WriteToFile(String path, FileMode mode, String contents, Encoding encoding)
+   at OLFramework.Core.Logger.Log(String message, LogLevel level) in D:\OLFramework\OLFramework.Server\OLFramework.Core\Logger.cs:line 33
+   at OLFramework.Core.OLServer.ProcessData() in D:\OLFramework\OLFramework.Server\OLFramework.Core\OLServer.cs:line 102
+[UTC 2024-08-19 11:00:16] : OnData
+[UTC 2024-08-19 11:00:16] : Player data received,NetID : 1189190677,MessageID : 0
+[UTC 2024-08-19 11:00:16] : SyncVar Message
+[UTC 2024-08-19 11:00:16] : Player data received,NetID : 1189190677,MessageID : 0
+[UTC 2024-08-19 11:00:16] : OnData
+[UTC 2024-08-19 11:00:16] : System.IO.IOException: The process cannot access the file 'D:\OLFramework\OLFramework.Server\OLFramework.Server\bin\Debug\net8.0\log.txt' because it is being used by another process.
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.File.WriteToFile(String path, FileMode mode, String contents, Encoding encoding)
+   at OLFramework.Core.Logger.Log(String message, LogLevel level) in D:\OLFramework\OLFramework.Server\OLFramework.Core\Logger.cs:line 33
+   at OLFramework.Core.Routes.SyncVarRoute.OnMessage(Player player, Message message) in D:\OLFramework\OLFramework.Server\OLFramework.Core\Routes\SyncVarRoute.cs:line 13
+   at OLFramework.Core.OLServer.ProcessData() in D:\OLFramework\OLFramework.Server\OLFramework.Core\OLServer.cs:line 109
+[UTC 2024-08-19 11:00:16] : Player data received,NetID : 1189190677,MessageID : 0
+[UTC 2024-08-19 11:00:16] : OnData
+[UTC 2024-08-19 11:00:16] : SyncVar Message
+[UTC 2024-08-19 11:00:16] : Player data received,NetID : 1189190677,MessageID : 0
+[UTC 2024-08-19 11:00:16] : OnData
+[UTC 2024-08-19 11:00:16] : SyncVar Message
+[UTC 2024-08-19 11:00:16] : OnData
+[UTC 2024-08-19 11:00:16] : Player data received,NetID : 1189190677,MessageID : 0
+[UTC 2024-08-19 11:00:16] : SyncVar Message
+[UTC 2024-08-19 11:00:16] : OnData
+[UTC 2024-08-19 11:00:16] : System.IO.IOException: The process cannot access the file 'D:\OLFramework\OLFramework.Server\OLFramework.Server\bin\Debug\net8.0\log.txt' because it is being used by another process.
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.File.WriteToFile(String path, FileMode mode, String contents, Encoding encoding)
+   at OLFramework.Core.Logger.Log(String message, LogLevel level) in D:\OLFramework\OLFramework.Server\OLFramework.Core\Logger.cs:line 33
+   at OLFramework.Core.OLServer.ProcessData() in D:\OLFramework\OLFramework.Server\OLFramework.Core\OLServer.cs:line 102
+[UTC 2024-08-19 11:00:16] : Player data received,NetID : 1189190677,MessageID : 0
+[UTC 2024-08-19 11:00:16] : SyncVar Message
+[UTC 2024-08-19 11:00:16] : System.IO.IOException: The process cannot access the file 'D:\OLFramework\OLFramework.Server\OLFramework.Server\bin\Debug\net8.0\log.txt' because it is being used by another process.
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.File.WriteToFile(String path, FileMode mode, String contents, Encoding encoding)
+   at OLFramework.Core.Logger.Log(String message, LogLevel level) in D:\OLFramework\OLFramework.Server\OLFramework.Core\Logger.cs:line 33
+   at OLFramework.Core.OLServer.OnData(Int32 netid, ArraySegment`1 data, KcpChannel channel) in D:\OLFramework\OLFramework.Server\OLFramework.Core\OLServer.cs:line 85
+[UTC 2024-08-19 11:00:16] : Player data received,NetID : 1189190677,MessageID : 0
+[UTC 2024-08-19 11:00:16] : SyncVar Message
+[UTC 2024-08-19 11:00:16] : OnData
+[UTC 2024-08-19 11:00:16] : Player data received,NetID : 1189190677,MessageID : 0
+[UTC 2024-08-19 11:00:16] : OnData
+[UTC 2024-08-19 11:00:16] : SyncVar Message
+[UTC 2024-08-19 11:00:16] : Player data received,NetID : 1189190677,MessageID : 0
+[UTC 2024-08-19 11:00:16] : SyncVar Message
+[UTC 2024-08-19 11:00:16] : OnData
+[UTC 2024-08-19 11:00:16] : Player data received,NetID : 1189190677,MessageID : 0
+[UTC 2024-08-19 11:00:16] : OnData
+[UTC 2024-08-19 11:00:16] : SyncVar Message
+[UTC 2024-08-19 11:00:16] : OnData
+[UTC 2024-08-19 11:00:16] : Player data received,NetID : 1189190677,MessageID : 0
+[UTC 2024-08-19 11:00:16] : SyncVar Message
+[UTC 2024-08-19 11:00:16] : Player data received,NetID : 1189190677,MessageID : 0
+[UTC 2024-08-19 11:00:16] : SyncVar Message
+[UTC 2024-08-19 11:00:16] : System.IO.IOException: The process cannot access the file 'D:\OLFramework\OLFramework.Server\OLFramework.Server\bin\Debug\net8.0\log.txt' because it is being used by another process.
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.File.WriteToFile(String path, FileMode mode, String contents, Encoding encoding)
+   at OLFramework.Core.Logger.Log(String message, LogLevel level) in D:\OLFramework\OLFramework.Server\OLFramework.Core\Logger.cs:line 33
+   at OLFramework.Core.OLServer.OnData(Int32 netid, ArraySegment`1 data, KcpChannel channel) in D:\OLFramework\OLFramework.Server\OLFramework.Core\OLServer.cs:line 85
+[UTC 2024-08-19 11:00:16] : OnData
+[UTC 2024-08-19 11:00:16] : Player data received,NetID : 1189190677,MessageID : 0
+[UTC 2024-08-19 11:00:16] : SyncVar Message
+[UTC 2024-08-19 11:00:16] : Player data received,NetID : 1189190677,MessageID : 0
+[UTC 2024-08-19 11:00:16] : SyncVar Message
+[UTC 2024-08-19 11:00:16] : System.IO.IOException: The process cannot access the file 'D:\OLFramework\OLFramework.Server\OLFramework.Server\bin\Debug\net8.0\log.txt' because it is being used by another process.
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.File.WriteToFile(String path, FileMode mode, String contents, Encoding encoding)
+   at OLFramework.Core.Logger.Log(String message, LogLevel level) in D:\OLFramework\OLFramework.Server\OLFramework.Core\Logger.cs:line 33
+   at OLFramework.Core.OLServer.OnData(Int32 netid, ArraySegment`1 data, KcpChannel channel) in D:\OLFramework\OLFramework.Server\OLFramework.Core\OLServer.cs:line 85
+[UTC 2024-08-19 11:00:16] : Player data received,NetID : 1189190677,MessageID : 0
+[UTC 2024-08-19 11:00:16] : SyncVar Message
+[UTC 2024-08-19 11:00:16] : OnData
+[UTC 2024-08-19 11:00:16] : OnData
+[UTC 2024-08-19 11:00:16] : Player data received,NetID : 1189190677,MessageID : 0
+[UTC 2024-08-19 11:00:16] : SyncVar Message
+[UTC 2024-08-19 11:00:17] : OnData
+[UTC 2024-08-19 11:00:17] : Player data received,NetID : 1189190677,MessageID : 0
+[UTC 2024-08-19 11:00:17] : SyncVar Message
+[UTC 2024-08-19 11:00:17] : OnData
+[UTC 2024-08-19 11:00:17] : Player data received,NetID : 1189190677,MessageID : 0
+[UTC 2024-08-19 11:00:17] : OnData
+[UTC 2024-08-19 11:00:17] : SyncVar Message
+[UTC 2024-08-19 11:00:17] : System.IO.IOException: The process cannot access the file 'D:\OLFramework\OLFramework.Server\OLFramework.Server\bin\Debug\net8.0\log.txt' because it is being used by another process.
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.File.WriteToFile(String path, FileMode mode, String contents, Encoding encoding)
+   at OLFramework.Core.Logger.Log(String message, LogLevel level) in D:\OLFramework\OLFramework.Server\OLFramework.Core\Logger.cs:line 33
+   at OLFramework.Core.OLServer.ProcessData() in D:\OLFramework\OLFramework.Server\OLFramework.Core\OLServer.cs:line 102
+[UTC 2024-08-19 11:00:17] : Player data received,NetID : 1189190677,MessageID : 0
+[UTC 2024-08-19 11:00:17] : OnData
+[UTC 2024-08-19 11:00:17] : SyncVar Message
+[UTC 2024-08-19 11:00:17] : OnData
+[UTC 2024-08-19 11:00:17] : System.IO.IOException: The process cannot access the file 'D:\OLFramework\OLFramework.Server\OLFramework.Server\bin\Debug\net8.0\log.txt' because it is being used by another process.
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.File.WriteToFile(String path, FileMode mode, String contents, Encoding encoding)
+   at OLFramework.Core.Logger.Log(String message, LogLevel level) in D:\OLFramework\OLFramework.Server\OLFramework.Core\Logger.cs:line 33
+   at OLFramework.Core.OLServer.ProcessData() in D:\OLFramework\OLFramework.Server\OLFramework.Core\OLServer.cs:line 102
+[UTC 2024-08-19 11:00:17] : Player data received,NetID : 1189190677,MessageID : 0
+[UTC 2024-08-19 11:00:17] : OnData
+[UTC 2024-08-19 11:00:17] : SyncVar Message
+[UTC 2024-08-19 11:00:17] : Player data received,NetID : 1189190677,MessageID : 0
+[UTC 2024-08-19 11:00:17] : SyncVar Message
+[UTC 2024-08-19 11:00:17] : System.IO.IOException: The process cannot access the file 'D:\OLFramework\OLFramework.Server\OLFramework.Server\bin\Debug\net8.0\log.txt' because it is being used by another process.
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.File.WriteToFile(String path, FileMode mode, String contents, Encoding encoding)
+   at OLFramework.Core.Logger.Log(String message, LogLevel level) in D:\OLFramework\OLFramework.Server\OLFramework.Core\Logger.cs:line 33
+   at OLFramework.Core.OLServer.OnData(Int32 netid, ArraySegment`1 data, KcpChannel channel) in D:\OLFramework\OLFramework.Server\OLFramework.Core\OLServer.cs:line 85
+[UTC 2024-08-19 11:00:17] : Player data received,NetID : 1189190677,MessageID : 0
+[UTC 2024-08-19 11:00:17] : OnData
+[UTC 2024-08-19 11:00:17] : SyncVar Message
+[UTC 2024-08-19 11:00:17] : Player data received,NetID : 1189190677,MessageID : 0
+[UTC 2024-08-19 11:00:17] : OnData
+[UTC 2024-08-19 11:00:17] : SyncVar Message
+[UTC 2024-08-19 11:00:17] : OnData
+[UTC 2024-08-19 11:00:17] : Player data received,NetID : 1189190677,MessageID : 0
+[UTC 2024-08-19 11:00:17] : SyncVar Message
+[UTC 2024-08-19 11:00:17] : Player data received,NetID : 1189190677,MessageID : 0
+[UTC 2024-08-19 11:00:17] : SyncVar Message
+[UTC 2024-08-19 11:00:17] : System.IO.IOException: The process cannot access the file 'D:\OLFramework\OLFramework.Server\OLFramework.Server\bin\Debug\net8.0\log.txt' because it is being used by another process.
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.File.WriteToFile(String path, FileMode mode, String contents, Encoding encoding)
+   at OLFramework.Core.Logger.Log(String message, LogLevel level) in D:\OLFramework\OLFramework.Server\OLFramework.Core\Logger.cs:line 33
+   at OLFramework.Core.OLServer.OnData(Int32 netid, ArraySegment`1 data, KcpChannel channel) in D:\OLFramework\OLFramework.Server\OLFramework.Core\OLServer.cs:line 85
+[UTC 2024-08-19 11:00:17] : OnData
+[UTC 2024-08-19 11:00:17] : Player data received,NetID : 1189190677,MessageID : 0
+[UTC 2024-08-19 11:00:17] : SyncVar Message
+[UTC 2024-08-19 11:00:17] : Player data received,NetID : 1189190677,MessageID : 0
+[UTC 2024-08-19 11:00:17] : SyncVar Message
+[UTC 2024-08-19 11:00:17] : System.IO.IOException: The process cannot access the file 'D:\OLFramework\OLFramework.Server\OLFramework.Server\bin\Debug\net8.0\log.txt' because it is being used by another process.
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.File.WriteToFile(String path, FileMode mode, String contents, Encoding encoding)
+   at OLFramework.Core.Logger.Log(String message, LogLevel level) in D:\OLFramework\OLFramework.Server\OLFramework.Core\Logger.cs:line 33
+   at OLFramework.Core.OLServer.OnData(Int32 netid, ArraySegment`1 data, KcpChannel channel) in D:\OLFramework\OLFramework.Server\OLFramework.Core\OLServer.cs:line 85
+[UTC 2024-08-19 11:00:17] : OnData
+[UTC 2024-08-19 11:00:17] : Player data received,NetID : 1189190677,MessageID : 0
+[UTC 2024-08-19 11:00:17] : SyncVar Message
+[UTC 2024-08-19 11:00:17] : OnData
+[UTC 2024-08-19 11:00:17] : Player data received,NetID : 1189190677,MessageID : 0
+[UTC 2024-08-19 11:00:17] : Player data received,NetID : 1189190677,MessageID : 0
+[UTC 2024-08-19 11:00:17] : SyncVar Message
+[UTC 2024-08-19 11:00:17] : SyncVar Message
+[UTC 2024-08-19 11:00:17] : System.IO.IOException: The process cannot access the file 'D:\OLFramework\OLFramework.Server\OLFramework.Server\bin\Debug\net8.0\log.txt' because it is being used by another process.
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.File.WriteToFile(String path, FileMode mode, String contents, Encoding encoding)
+   at OLFramework.Core.Logger.Log(String message, LogLevel level) in D:\OLFramework\OLFramework.Server\OLFramework.Core\Logger.cs:line 33
+   at OLFramework.Core.OLServer.OnData(Int32 netid, ArraySegment`1 data, KcpChannel channel) in D:\OLFramework\OLFramework.Server\OLFramework.Core\OLServer.cs:line 85
+[UTC 2024-08-19 11:00:17] : Player data received,NetID : 1189190677,MessageID : 0
+[UTC 2024-08-19 11:00:17] : OnData
+[UTC 2024-08-19 11:00:17] : SyncVar Message
+[UTC 2024-08-19 11:00:17] : OnData
+[UTC 2024-08-19 11:00:17] : System.IO.IOException: The process cannot access the file 'D:\OLFramework\OLFramework.Server\OLFramework.Server\bin\Debug\net8.0\log.txt' because it is being used by another process.
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.File.WriteToFile(String path, FileMode mode, String contents, Encoding encoding)
+   at OLFramework.Core.Logger.Log(String message, LogLevel level) in D:\OLFramework\OLFramework.Server\OLFramework.Core\Logger.cs:line 33
+   at OLFramework.Core.OLServer.ProcessData() in D:\OLFramework\OLFramework.Server\OLFramework.Core\OLServer.cs:line 102
+[UTC 2024-08-19 11:00:17] : Player data received,NetID : 1189190677,MessageID : 0
+[UTC 2024-08-19 11:00:17] : SyncVar Message
+[UTC 2024-08-19 11:00:17] : System.IO.IOException: The process cannot access the file 'D:\OLFramework\OLFramework.Server\OLFramework.Server\bin\Debug\net8.0\log.txt' because it is being used by another process.
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.File.WriteToFile(String path, FileMode mode, String contents, Encoding encoding)
+   at OLFramework.Core.Logger.Log(String message, LogLevel level) in D:\OLFramework\OLFramework.Server\OLFramework.Core\Logger.cs:line 33
+   at OLFramework.Core.OLServer.OnData(Int32 netid, ArraySegment`1 data, KcpChannel channel) in D:\OLFramework\OLFramework.Server\OLFramework.Core\OLServer.cs:line 85
+[UTC 2024-08-19 11:00:17] : Player data received,NetID : 1189190677,MessageID : 0
+[UTC 2024-08-19 11:00:17] : SyncVar Message
+[UTC 2024-08-19 11:00:17] : System.IO.IOException: The process cannot access the file 'D:\OLFramework\OLFramework.Server\OLFramework.Server\bin\Debug\net8.0\log.txt' because it is being used by another process.
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.File.WriteToFile(String path, FileMode mode, String contents, Encoding encoding)
+   at OLFramework.Core.Logger.Log(String message, LogLevel level) in D:\OLFramework\OLFramework.Server\OLFramework.Core\Logger.cs:line 33
+   at OLFramework.Core.OLServer.OnData(Int32 netid, ArraySegment`1 data, KcpChannel channel) in D:\OLFramework\OLFramework.Server\OLFramework.Core\OLServer.cs:line 85
+[UTC 2024-08-19 11:00:17] : Player data received,NetID : 1189190677,MessageID : 0
+[UTC 2024-08-19 11:00:17] : SyncVar Message
+[UTC 2024-08-19 11:00:17] : System.IO.IOException: The process cannot access the file 'D:\OLFramework\OLFramework.Server\OLFramework.Server\bin\Debug\net8.0\log.txt' because it is being used by another process.
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.File.WriteToFile(String path, FileMode mode, String contents, Encoding encoding)
+   at OLFramework.Core.Logger.Log(String message, LogLevel level) in D:\OLFramework\OLFramework.Server\OLFramework.Core\Logger.cs:line 33
+   at OLFramework.Core.OLServer.OnData(Int32 netid, ArraySegment`1 data, KcpChannel channel) in D:\OLFramework\OLFramework.Server\OLFramework.Core\OLServer.cs:line 85
+[UTC 2024-08-19 11:00:17] : Player data received,NetID : 1189190677,MessageID : 0
+[UTC 2024-08-19 11:00:17] : OnData
+[UTC 2024-08-19 11:00:17] : SyncVar Message
+[UTC 2024-08-19 11:00:17] : Player data received,NetID : 1189190677,MessageID : 2131750981
+[UTC 2024-08-19 11:00:17] : Send data length 30
+[UTC 2024-08-19 11:00:17] : System.IO.IOException: The process cannot access the file 'D:\OLFramework\OLFramework.Server\OLFramework.Server\bin\Debug\net8.0\log.txt' because it is being used by another process.
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.File.WriteToFile(String path, FileMode mode, String contents, Encoding encoding)
+   at OLFramework.Core.Logger.Log(String message, LogLevel level) in D:\OLFramework\OLFramework.Server\OLFramework.Core\Logger.cs:line 33
+   at OLFramework.Core.OLServer.OnData(Int32 netid, ArraySegment`1 data, KcpChannel channel) in D:\OLFramework\OLFramework.Server\OLFramework.Core\OLServer.cs:line 85
+[UTC 2024-08-19 11:00:17] : Player data received,NetID : 1189190677,MessageID : 0
+[UTC 2024-08-19 11:00:17] : OnData
+[UTC 2024-08-19 11:00:17] : Player data received,NetID : 1189190677,MessageID : 0
+[UTC 2024-08-19 11:00:17] : SyncVar Message
+[UTC 2024-08-19 11:00:17] : OnData
+[UTC 2024-08-19 11:00:17] : System.IO.IOException: The process cannot access the file 'D:\OLFramework\OLFramework.Server\OLFramework.Server\bin\Debug\net8.0\log.txt' because it is being used by another process.
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.File.WriteToFile(String path, FileMode mode, String contents, Encoding encoding)
+   at OLFramework.Core.Logger.Log(String message, LogLevel level) in D:\OLFramework\OLFramework.Server\OLFramework.Core\Logger.cs:line 33
+   at OLFramework.Core.Routes.SyncVarRoute.OnMessage(Player player, Message message) in D:\OLFramework\OLFramework.Server\OLFramework.Core\Routes\SyncVarRoute.cs:line 13
+   at OLFramework.Core.OLServer.ProcessData() in D:\OLFramework\OLFramework.Server\OLFramework.Core\OLServer.cs:line 109
+[UTC 2024-08-19 11:00:17] : OnData
+[UTC 2024-08-19 11:00:17] : System.IO.IOException: The process cannot access the file 'D:\OLFramework\OLFramework.Server\OLFramework.Server\bin\Debug\net8.0\log.txt' because it is being used by another process.
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.File.WriteToFile(String path, FileMode mode, String contents, Encoding encoding)
+   at OLFramework.Core.Logger.Log(String message, LogLevel level) in D:\OLFramework\OLFramework.Server\OLFramework.Core\Logger.cs:line 33
+   at OLFramework.Core.OLServer.ProcessData() in D:\OLFramework\OLFramework.Server\OLFramework.Core\OLServer.cs:line 102
+[UTC 2024-08-19 11:00:17] : Player data received,NetID : 1189190677,MessageID : 0
+[UTC 2024-08-19 11:00:17] : SyncVar Message
+[UTC 2024-08-19 11:00:17] : System.IO.IOException: The process cannot access the file 'D:\OLFramework\OLFramework.Server\OLFramework.Server\bin\Debug\net8.0\log.txt' because it is being used by another process.
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.File.WriteToFile(String path, FileMode mode, String contents, Encoding encoding)
+   at OLFramework.Core.Logger.Log(String message, LogLevel level) in D:\OLFramework\OLFramework.Server\OLFramework.Core\Logger.cs:line 33
+   at OLFramework.Core.OLServer.OnData(Int32 netid, ArraySegment`1 data, KcpChannel channel) in D:\OLFramework\OLFramework.Server\OLFramework.Core\OLServer.cs:line 85
+[UTC 2024-08-19 11:00:17] : OnData
+[UTC 2024-08-19 11:00:17] : Player data received,NetID : 1189190677,MessageID : 0
+[UTC 2024-08-19 11:00:17] : OnData
+[UTC 2024-08-19 11:00:17] : SyncVar Message
+[UTC 2024-08-19 11:00:17] : System.IO.IOException: The process cannot access the file 'D:\OLFramework\OLFramework.Server\OLFramework.Server\bin\Debug\net8.0\log.txt' because it is being used by another process.
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.File.WriteToFile(String path, FileMode mode, String contents, Encoding encoding)
+   at OLFramework.Core.Logger.Log(String message, LogLevel level) in D:\OLFramework\OLFramework.Server\OLFramework.Core\Logger.cs:line 33
+   at OLFramework.Core.OLServer.ProcessData() in D:\OLFramework\OLFramework.Server\OLFramework.Core\OLServer.cs:line 102
+[UTC 2024-08-19 11:00:17] : OnData
+[UTC 2024-08-19 11:00:17] : System.IO.IOException: The process cannot access the file 'D:\OLFramework\OLFramework.Server\OLFramework.Server\bin\Debug\net8.0\log.txt' because it is being used by another process.
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.File.WriteToFile(String path, FileMode mode, String contents, Encoding encoding)
+   at OLFramework.Core.Logger.Log(String message, LogLevel level) in D:\OLFramework\OLFramework.Server\OLFramework.Core\Logger.cs:line 33
+   at OLFramework.Core.OLServer.ProcessData() in D:\OLFramework\OLFramework.Server\OLFramework.Core\OLServer.cs:line 102
+[UTC 2024-08-19 11:00:17] : OnData
+[UTC 2024-08-19 11:00:17] : Player data received,NetID : 1189190677,MessageID : 0
+[UTC 2024-08-19 11:00:17] : SyncVar Message
+[UTC 2024-08-19 11:00:17] : OnData
+[UTC 2024-08-19 11:00:17] : Player data received,NetID : 1189190677,MessageID : 0
+[UTC 2024-08-19 11:00:17] : SyncVar Message
+[UTC 2024-08-19 11:00:17] : Player data received,NetID : 1189190677,MessageID : 0
+[UTC 2024-08-19 11:00:17] : SyncVar Message
+[UTC 2024-08-19 11:00:17] : System.IO.IOException: The process cannot access the file 'D:\OLFramework\OLFramework.Server\OLFramework.Server\bin\Debug\net8.0\log.txt' because it is being used by another process.
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.File.WriteToFile(String path, FileMode mode, String contents, Encoding encoding)
+   at OLFramework.Core.Logger.Log(String message, LogLevel level) in D:\OLFramework\OLFramework.Server\OLFramework.Core\Logger.cs:line 33
+   at OLFramework.Core.OLServer.OnData(Int32 netid, ArraySegment`1 data, KcpChannel channel) in D:\OLFramework\OLFramework.Server\OLFramework.Core\OLServer.cs:line 85
+[UTC 2024-08-19 11:00:18] : Player data received,NetID : 1189190677,MessageID : 0
+[UTC 2024-08-19 11:00:18] : SyncVar Message
+[UTC 2024-08-19 11:00:18] : System.IO.IOException: The process cannot access the file 'D:\OLFramework\OLFramework.Server\OLFramework.Server\bin\Debug\net8.0\log.txt' because it is being used by another process.
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.File.WriteToFile(String path, FileMode mode, String contents, Encoding encoding)
+   at OLFramework.Core.Logger.Log(String message, LogLevel level) in D:\OLFramework\OLFramework.Server\OLFramework.Core\Logger.cs:line 33
+   at OLFramework.Core.OLServer.OnData(Int32 netid, ArraySegment`1 data, KcpChannel channel) in D:\OLFramework\OLFramework.Server\OLFramework.Core\OLServer.cs:line 85
+[UTC 2024-08-19 11:00:18] : Player data received,NetID : 1189190677,MessageID : 0
+[UTC 2024-08-19 11:00:18] : OnData
+[UTC 2024-08-19 11:00:18] : System.IO.IOException: The process cannot access the file 'D:\OLFramework\OLFramework.Server\OLFramework.Server\bin\Debug\net8.0\log.txt' because it is being used by another process.
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.File.WriteToFile(String path, FileMode mode, String contents, Encoding encoding)
+   at OLFramework.Core.Logger.Log(String message, LogLevel level) in D:\OLFramework\OLFramework.Server\OLFramework.Core\Logger.cs:line 33
+   at OLFramework.Core.Routes.SyncVarRoute.OnMessage(Player player, Message message) in D:\OLFramework\OLFramework.Server\OLFramework.Core\Routes\SyncVarRoute.cs:line 13
+   at OLFramework.Core.OLServer.ProcessData() in D:\OLFramework\OLFramework.Server\OLFramework.Core\OLServer.cs:line 109
+[UTC 2024-08-19 11:00:18] : Player data received,NetID : 1189190677,MessageID : 0
+[UTC 2024-08-19 11:00:18] : SyncVar Message
+[UTC 2024-08-19 11:00:18] : System.IO.IOException: The process cannot access the file 'D:\OLFramework\OLFramework.Server\OLFramework.Server\bin\Debug\net8.0\log.txt' because it is being used by another process.
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.File.WriteToFile(String path, FileMode mode, String contents, Encoding encoding)
+   at OLFramework.Core.Logger.Log(String message, LogLevel level) in D:\OLFramework\OLFramework.Server\OLFramework.Core\Logger.cs:line 33
+   at OLFramework.Core.OLServer.OnData(Int32 netid, ArraySegment`1 data, KcpChannel channel) in D:\OLFramework\OLFramework.Server\OLFramework.Core\OLServer.cs:line 85
+[UTC 2024-08-19 11:00:18] : OnData
+[UTC 2024-08-19 11:00:18] : System.IO.IOException: The process cannot access the file 'D:\OLFramework\OLFramework.Server\OLFramework.Server\bin\Debug\net8.0\log.txt' because it is being used by another process.
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.File.WriteToFile(String path, FileMode mode, String contents, Encoding encoding)
+   at OLFramework.Core.Logger.Log(String message, LogLevel level) in D:\OLFramework\OLFramework.Server\OLFramework.Core\Logger.cs:line 33
+   at OLFramework.Core.OLServer.ProcessData() in D:\OLFramework\OLFramework.Server\OLFramework.Core\OLServer.cs:line 102
+[UTC 2024-08-19 11:00:18] : OnData
+[UTC 2024-08-19 11:00:18] : Player data received,NetID : 1189190677,MessageID : 0
+[UTC 2024-08-19 11:00:18] : SyncVar Message
+[UTC 2024-08-19 11:00:18] : OnData
+[UTC 2024-08-19 11:00:18] : Player data received,NetID : 1189190677,MessageID : 0
+[UTC 2024-08-19 11:00:18] : SyncVar Message
+[UTC 2024-08-19 11:00:18] : Player data received,NetID : 1189190677,MessageID : 0
+[UTC 2024-08-19 11:00:18] : SyncVar Message
+[UTC 2024-08-19 11:00:18] : System.IO.IOException: The process cannot access the file 'D:\OLFramework\OLFramework.Server\OLFramework.Server\bin\Debug\net8.0\log.txt' because it is being used by another process.
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.File.WriteToFile(String path, FileMode mode, String contents, Encoding encoding)
+   at OLFramework.Core.Logger.Log(String message, LogLevel level) in D:\OLFramework\OLFramework.Server\OLFramework.Core\Logger.cs:line 33
+   at OLFramework.Core.OLServer.OnData(Int32 netid, ArraySegment`1 data, KcpChannel channel) in D:\OLFramework\OLFramework.Server\OLFramework.Core\OLServer.cs:line 85
+[UTC 2024-08-19 11:00:18] : Player data received,NetID : 1189190677,MessageID : 0
+[UTC 2024-08-19 11:00:18] : OnData
+[UTC 2024-08-19 11:00:18] : SyncVar Message
+[UTC 2024-08-19 11:00:18] : OnData
+[UTC 2024-08-19 11:00:18] : Player data received,NetID : 1189190677,MessageID : 0
+[UTC 2024-08-19 11:00:18] : Player data received,NetID : 1189190677,MessageID : 0
+[UTC 2024-08-19 11:00:18] : SyncVar Message
+[UTC 2024-08-19 11:00:18] : System.IO.IOException: The process cannot access the file 'D:\OLFramework\OLFramework.Server\OLFramework.Server\bin\Debug\net8.0\log.txt' because it is being used by another process.
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.File.WriteToFile(String path, FileMode mode, String contents, Encoding encoding)
+   at OLFramework.Core.Logger.Log(String message, LogLevel level) in D:\OLFramework\OLFramework.Server\OLFramework.Core\Logger.cs:line 33
+   at OLFramework.Core.OLServer.OnData(Int32 netid, ArraySegment`1 data, KcpChannel channel) in D:\OLFramework\OLFramework.Server\OLFramework.Core\OLServer.cs:line 85
+[UTC 2024-08-19 11:00:18] : System.IO.IOException: The process cannot access the file 'D:\OLFramework\OLFramework.Server\OLFramework.Server\bin\Debug\net8.0\log.txt' because it is being used by another process.
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.File.WriteToFile(String path, FileMode mode, String contents, Encoding encoding)
+   at OLFramework.Core.Logger.Log(String message, LogLevel level) in D:\OLFramework\OLFramework.Server\OLFramework.Core\Logger.cs:line 33
+   at OLFramework.Core.Routes.SyncVarRoute.OnMessage(Player player, Message message) in D:\OLFramework\OLFramework.Server\OLFramework.Core\Routes\SyncVarRoute.cs:line 13
+   at OLFramework.Core.OLServer.ProcessData() in D:\OLFramework\OLFramework.Server\OLFramework.Core\OLServer.cs:line 109
+[UTC 2024-08-19 11:00:18] : OnData
+[UTC 2024-08-19 11:00:18] : Player data received,NetID : 1189190677,MessageID : 0
+[UTC 2024-08-19 11:00:18] : Player data received,NetID : 1189190677,MessageID : 0
+[UTC 2024-08-19 11:00:18] : OnData
+[UTC 2024-08-19 11:00:18] : SyncVar Message
+[UTC 2024-08-19 11:00:18] : SyncVar Message
+[UTC 2024-08-19 11:00:18] : OnData
+[UTC 2024-08-19 11:00:18] : Player data received,NetID : 1189190677,MessageID : 0
+[UTC 2024-08-19 11:00:18] : OnData
+[UTC 2024-08-19 11:00:18] : Player data received,NetID : 1189190677,MessageID : 0
+[UTC 2024-08-19 11:00:18] : SyncVar Message
+[UTC 2024-08-19 11:00:18] : SyncVar Message
+[UTC 2024-08-19 11:00:18] : OnData
+[UTC 2024-08-19 11:00:18] : Player data received,NetID : 1189190677,MessageID : 0
+[UTC 2024-08-19 11:00:18] : OnData
+[UTC 2024-08-19 11:00:18] : OnData
+[UTC 2024-08-19 11:00:18] : Player data received,NetID : 1189190677,MessageID : 0
+[UTC 2024-08-19 11:00:18] : SyncVar Message
+[UTC 2024-08-19 11:00:18] : SyncVar Message
+[UTC 2024-08-19 11:00:18] : System.IO.IOException: The process cannot access the file 'D:\OLFramework\OLFramework.Server\OLFramework.Server\bin\Debug\net8.0\log.txt' because it is being used by another process.
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.File.WriteToFile(String path, FileMode mode, String contents, Encoding encoding)
+   at OLFramework.Core.Logger.Log(String message, LogLevel level) in D:\OLFramework\OLFramework.Server\OLFramework.Core\Logger.cs:line 33
+   at OLFramework.Core.OLServer.ProcessData() in D:\OLFramework\OLFramework.Server\OLFramework.Core\OLServer.cs:line 102
+[UTC 2024-08-19 11:00:18] : Player data received,NetID : 1189190677,MessageID : 0
+[UTC 2024-08-19 11:00:18] : SyncVar Message
+[UTC 2024-08-19 11:00:18] : System.IO.IOException: The process cannot access the file 'D:\OLFramework\OLFramework.Server\OLFramework.Server\bin\Debug\net8.0\log.txt' because it is being used by another process.
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.File.WriteToFile(String path, FileMode mode, String contents, Encoding encoding)
+   at OLFramework.Core.Logger.Log(String message, LogLevel level) in D:\OLFramework\OLFramework.Server\OLFramework.Core\Logger.cs:line 33
+   at OLFramework.Core.OLServer.OnData(Int32 netid, ArraySegment`1 data, KcpChannel channel) in D:\OLFramework\OLFramework.Server\OLFramework.Core\OLServer.cs:line 85
+[UTC 2024-08-19 11:00:18] : Player data received,NetID : 1189190677,MessageID : 0
+[UTC 2024-08-19 11:00:18] : SyncVar Message
+[UTC 2024-08-19 11:00:18] : OnData
+[UTC 2024-08-19 11:00:18] : OnData
+[UTC 2024-08-19 11:00:18] : System.IO.IOException: The process cannot access the file 'D:\OLFramework\OLFramework.Server\OLFramework.Server\bin\Debug\net8.0\log.txt' because it is being used by another process.
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.File.WriteToFile(String path, FileMode mode, String contents, Encoding encoding)
+   at OLFramework.Core.Logger.Log(String message, LogLevel level) in D:\OLFramework\OLFramework.Server\OLFramework.Core\Logger.cs:line 33
+   at OLFramework.Core.OLServer.ProcessData() in D:\OLFramework\OLFramework.Server\OLFramework.Core\OLServer.cs:line 102
+[UTC 2024-08-19 11:00:18] : Player data received,NetID : 1189190677,MessageID : 46672558
+[UTC 2024-08-19 11:00:18] : OnData
+[UTC 2024-08-19 11:00:18] : Send data length 30
+[UTC 2024-08-19 11:00:18] : OnData
+[UTC 2024-08-19 11:00:18] : Player data received,NetID : 1189190677,MessageID : 0
+[UTC 2024-08-19 11:00:18] : OnData
+[UTC 2024-08-19 11:00:18] : System.IO.IOException: The process cannot access the file 'D:\OLFramework\OLFramework.Server\OLFramework.Server\bin\Debug\net8.0\log.txt' because it is being used by another process.
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.File.WriteToFile(String path, FileMode mode, String contents, Encoding encoding)
+   at OLFramework.Core.Logger.Log(String message, LogLevel level) in D:\OLFramework\OLFramework.Server\OLFramework.Core\Logger.cs:line 33
+   at OLFramework.Core.OLServer.ProcessData() in D:\OLFramework\OLFramework.Server\OLFramework.Core\OLServer.cs:line 102
+[UTC 2024-08-19 11:00:18] : System.IO.IOException: The process cannot access the file 'D:\OLFramework\OLFramework.Server\OLFramework.Server\bin\Debug\net8.0\log.txt' because it is being used by another process.
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.File.WriteToFile(String path, FileMode mode, String contents, Encoding encoding)
+   at OLFramework.Core.Logger.Log(String message, LogLevel level) in D:\OLFramework\OLFramework.Server\OLFramework.Core\Logger.cs:line 33
+   at OLFramework.Core.Routes.SyncVarRoute.OnMessage(Player player, Message message) in D:\OLFramework\OLFramework.Server\OLFramework.Core\Routes\SyncVarRoute.cs:line 13
+   at OLFramework.Core.OLServer.ProcessData() in D:\OLFramework\OLFramework.Server\OLFramework.Core\OLServer.cs:line 109
+[UTC 2024-08-19 11:00:18] : OnData
+[UTC 2024-08-19 11:00:18] : Player data received,NetID : 1189190677,MessageID : 0
+[UTC 2024-08-19 11:00:18] : OnData
+[UTC 2024-08-19 11:00:18] : SyncVar Message
+[UTC 2024-08-19 11:00:18] : System.IO.IOException: The process cannot access the file 'D:\OLFramework\OLFramework.Server\OLFramework.Server\bin\Debug\net8.0\log.txt' because it is being used by another process.
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.File.WriteToFile(String path, FileMode mode, String contents, Encoding encoding)
+   at OLFramework.Core.Logger.Log(String message, LogLevel level) in D:\OLFramework\OLFramework.Server\OLFramework.Core\Logger.cs:line 33
+   at OLFramework.Core.OLServer.ProcessData() in D:\OLFramework\OLFramework.Server\OLFramework.Core\OLServer.cs:line 102
+[UTC 2024-08-19 11:00:18] : OnData
+[UTC 2024-08-19 11:00:18] : Player data received,NetID : 1189190677,MessageID : 0
+[UTC 2024-08-19 11:00:18] : SyncVar Message
+[UTC 2024-08-19 11:00:18] : Player data received,NetID : 1189190677,MessageID : 0
+[UTC 2024-08-19 11:00:18] : OnData
+[UTC 2024-08-19 11:00:18] : SyncVar Message
+[UTC 2024-08-19 11:00:18] : Player data received,NetID : 1189190677,MessageID : 0
+[UTC 2024-08-19 11:00:18] : SyncVar Message
+[UTC 2024-08-19 11:00:18] : System.IO.IOException: The process cannot access the file 'D:\OLFramework\OLFramework.Server\OLFramework.Server\bin\Debug\net8.0\log.txt' because it is being used by another process.
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.File.WriteToFile(String path, FileMode mode, String contents, Encoding encoding)
+   at OLFramework.Core.Logger.Log(String message, LogLevel level) in D:\OLFramework\OLFramework.Server\OLFramework.Core\Logger.cs:line 33
+   at OLFramework.Core.OLServer.OnData(Int32 netid, ArraySegment`1 data, KcpChannel channel) in D:\OLFramework\OLFramework.Server\OLFramework.Core\OLServer.cs:line 85
+[UTC 2024-08-19 11:00:18] : OnData
+[UTC 2024-08-19 11:00:18] : Player data received,NetID : 1189190677,MessageID : 0
+[UTC 2024-08-19 11:00:18] : SyncVar Message
+[UTC 2024-08-19 11:00:18] : OnData
+[UTC 2024-08-19 11:00:18] : Player data received,NetID : 1189190677,MessageID : 0
+[UTC 2024-08-19 11:00:18] : OnData
+[UTC 2024-08-19 11:00:18] : SyncVar Message
+[UTC 2024-08-19 11:00:18] : System.IO.IOException: The process cannot access the file 'D:\OLFramework\OLFramework.Server\OLFramework.Server\bin\Debug\net8.0\log.txt' because it is being used by another process.
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.File.WriteToFile(String path, FileMode mode, String contents, Encoding encoding)
+   at OLFramework.Core.Logger.Log(String message, LogLevel level) in D:\OLFramework\OLFramework.Server\OLFramework.Core\Logger.cs:line 33
+   at OLFramework.Core.OLServer.ProcessData() in D:\OLFramework\OLFramework.Server\OLFramework.Core\OLServer.cs:line 102
+[UTC 2024-08-19 11:00:18] : Player data received,NetID : 1189190677,MessageID : 0
+[UTC 2024-08-19 11:00:18] : OnData
+[UTC 2024-08-19 11:00:18] : Player data received,NetID : 1189190677,MessageID : 0
+[UTC 2024-08-19 11:00:18] : OnData
+[UTC 2024-08-19 11:00:18] : SyncVar Message
+[UTC 2024-08-19 11:00:18] : OnData
+[UTC 2024-08-19 11:00:18] : System.IO.IOException: The process cannot access the file 'D:\OLFramework\OLFramework.Server\OLFramework.Server\bin\Debug\net8.0\log.txt' because it is being used by another process.
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.File.WriteToFile(String path, FileMode mode, String contents, Encoding encoding)
+   at OLFramework.Core.Logger.Log(String message, LogLevel level) in D:\OLFramework\OLFramework.Server\OLFramework.Core\Logger.cs:line 33
+   at OLFramework.Core.Routes.SyncVarRoute.OnMessage(Player player, Message message) in D:\OLFramework\OLFramework.Server\OLFramework.Core\Routes\SyncVarRoute.cs:line 13
+   at OLFramework.Core.OLServer.ProcessData() in D:\OLFramework\OLFramework.Server\OLFramework.Core\OLServer.cs:line 109
+[UTC 2024-08-19 11:00:18] : Player data received,NetID : 1189190677,MessageID : 0
+[UTC 2024-08-19 11:00:18] : System.IO.IOException: The process cannot access the file 'D:\OLFramework\OLFramework.Server\OLFramework.Server\bin\Debug\net8.0\log.txt' because it is being used by another process.
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.File.WriteToFile(String path, FileMode mode, String contents, Encoding encoding)
+   at OLFramework.Core.Logger.Log(String message, LogLevel level) in D:\OLFramework\OLFramework.Server\OLFramework.Core\Logger.cs:line 33
+   at OLFramework.Core.OLServer.ProcessData() in D:\OLFramework\OLFramework.Server\OLFramework.Core\OLServer.cs:line 102
+[UTC 2024-08-19 11:00:18] : SyncVar Message
+[UTC 2024-08-19 11:00:18] : System.IO.IOException: The process cannot access the file 'D:\OLFramework\OLFramework.Server\OLFramework.Server\bin\Debug\net8.0\log.txt' because it is being used by another process.
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.File.WriteToFile(String path, FileMode mode, String contents, Encoding encoding)
+   at OLFramework.Core.Logger.Log(String message, LogLevel level) in D:\OLFramework\OLFramework.Server\OLFramework.Core\Logger.cs:line 33
+   at OLFramework.Core.OLServer.OnData(Int32 netid, ArraySegment`1 data, KcpChannel channel) in D:\OLFramework\OLFramework.Server\OLFramework.Core\OLServer.cs:line 85
+[UTC 2024-08-19 11:00:18] : OnData
+[UTC 2024-08-19 11:00:18] : Player data received,NetID : 1189190677,MessageID : 0
+[UTC 2024-08-19 11:00:18] : SyncVar Message
+[UTC 2024-08-19 11:00:18] : OnData
+[UTC 2024-08-19 11:00:18] : Player data received,NetID : 1189190677,MessageID : 0
+[UTC 2024-08-19 11:00:18] : SyncVar Message
+[UTC 2024-08-19 11:00:18] : OnData
+[UTC 2024-08-19 11:00:18] : Player data received,NetID : 1189190677,MessageID : 0
+[UTC 2024-08-19 11:00:18] : SyncVar Message
+[UTC 2024-08-19 11:00:18] : OnData
+[UTC 2024-08-19 11:00:18] : Player data received,NetID : 1189190677,MessageID : 0
+[UTC 2024-08-19 11:00:18] : SyncVar Message
+[UTC 2024-08-19 11:00:19] : OnData
+[UTC 2024-08-19 11:00:19] : Player data received,NetID : 1189190677,MessageID : 0
+[UTC 2024-08-19 11:00:19] : SyncVar Message
+[UTC 2024-08-19 11:00:19] : OnData
+[UTC 2024-08-19 11:00:19] : Player data received,NetID : 1189190677,MessageID : 0
+[UTC 2024-08-19 11:00:19] : SyncVar Message
+[UTC 2024-08-19 11:00:19] : Player data received,NetID : 1189190677,MessageID : 1025162041
+[UTC 2024-08-19 11:00:19] : OnData
+[UTC 2024-08-19 11:00:19] : Send data length 30
+[UTC 2024-08-19 11:00:19] : OnData
+[UTC 2024-08-19 11:00:19] : System.IO.IOException: The process cannot access the file 'D:\OLFramework\OLFramework.Server\OLFramework.Server\bin\Debug\net8.0\log.txt' because it is being used by another process.
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.File.WriteToFile(String path, FileMode mode, String contents, Encoding encoding)
+   at OLFramework.Core.Logger.Log(String message, LogLevel level) in D:\OLFramework\OLFramework.Server\OLFramework.Core\Logger.cs:line 33
+   at OLFramework.Core.OLServer.ProcessData() in D:\OLFramework\OLFramework.Server\OLFramework.Core\OLServer.cs:line 102
+[UTC 2024-08-19 11:00:19] : OnData
+[UTC 2024-08-19 11:00:19] : Player data received,NetID : 1189190677,MessageID : 0
+[UTC 2024-08-19 11:00:19] : SyncVar Message
+[UTC 2024-08-19 11:00:19] : OnData
+[UTC 2024-08-19 11:00:19] : OnData

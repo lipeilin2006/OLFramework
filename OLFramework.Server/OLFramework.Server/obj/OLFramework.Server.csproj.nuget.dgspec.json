@@ -1,0 +1,391 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\OLFramework\\OLFramework.Server\\OLFramework.Server\\OLFramework.Server.csproj": {}
+  },
+  "projects": {
+    "D:\\OLFramework\\OLFramework.Server\\kcp2k\\kcp2k.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\OLFramework\\OLFramework.Server\\kcp2k\\kcp2k.csproj",
+        "projectName": "kcp2k",
+        "projectPath": "D:\\OLFramework\\OLFramework.Server\\kcp2k\\kcp2k.csproj",
+        "packagesPath": "C:\\Users\\29530\\.nuget\\packages\\",
+        "outputPath": "D:\\OLFramework\\OLFramework.Server\\kcp2k\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\29530\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\OLFramework\\OLFramework.Server\\OLFramework.Core\\OLFramework.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\OLFramework\\OLFramework.Server\\OLFramework.Core\\OLFramework.Core.csproj",
+        "projectName": "OLFramework.Core",
+        "projectPath": "D:\\OLFramework\\OLFramework.Server\\OLFramework.Core\\OLFramework.Core.csproj",
+        "packagesPath": "C:\\Users\\29530\\.nuget\\packages\\",
+        "outputPath": "D:\\OLFramework\\OLFramework.Server\\OLFramework.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\29530\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "D:\\OLFramework\\OLFramework.Server\\kcp2k\\kcp2k.csproj": {
+                "projectPath": "D:\\OLFramework\\OLFramework.Server\\kcp2k\\kcp2k.csproj"
+              },
+              "D:\\OLFramework\\OLFramework.Server\\OLFramework.Data\\OLFramework.Data.csproj": {
+                "projectPath": "D:\\OLFramework\\OLFramework.Server\\OLFramework.Data\\OLFramework.Data.csproj"
+              },
+              "D:\\OLFramework\\OLFramework.Server\\OLFramework.Utils\\OLFramework.Utils.csproj": {
+                "projectPath": "D:\\OLFramework\\OLFramework.Server\\OLFramework.Utils\\OLFramework.Utils.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "MemoryPack.Generator": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.21.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\OLFramework\\OLFramework.Server\\OLFramework.Data\\OLFramework.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\OLFramework\\OLFramework.Server\\OLFramework.Data\\OLFramework.Data.csproj",
+        "projectName": "OLFramework.Data",
+        "projectPath": "D:\\OLFramework\\OLFramework.Server\\OLFramework.Data\\OLFramework.Data.csproj",
+        "packagesPath": "C:\\Users\\29530\\.nuget\\packages\\",
+        "outputPath": "D:\\OLFramework\\OLFramework.Server\\OLFramework.Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\29530\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "D:\\OLFramework\\OLFramework.Server\\OLFramework.Utils\\OLFramework.Utils.csproj": {
+                "projectPath": "D:\\OLFramework\\OLFramework.Server\\OLFramework.Utils\\OLFramework.Utils.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "MemoryPack.Generator": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.21.1, )"
+            },
+            "Microsoft.Extensions.ObjectPool": {
+              "target": "Package",
+              "version": "[8.0.8, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\OLFramework\\OLFramework.Server\\OLFramework.Server\\OLFramework.Server.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\OLFramework\\OLFramework.Server\\OLFramework.Server\\OLFramework.Server.csproj",
+        "projectName": "OLFramework.Server",
+        "projectPath": "D:\\OLFramework\\OLFramework.Server\\OLFramework.Server\\OLFramework.Server.csproj",
+        "packagesPath": "C:\\Users\\29530\\.nuget\\packages\\",
+        "outputPath": "D:\\OLFramework\\OLFramework.Server\\OLFramework.Server\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\29530\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "D:\\OLFramework\\OLFramework.Server\\OLFramework.Core\\OLFramework.Core.csproj": {
+                "projectPath": "D:\\OLFramework\\OLFramework.Server\\OLFramework.Core\\OLFramework.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.DotNet.ILCompiler": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.7, )",
+              "autoReferenced": true
+            },
+            "Microsoft.NET.ILLink.Tasks": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.8, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "runtime.win-x64.Microsoft.DotNet.ILCompiler",
+              "version": "[8.0.7, 8.0.7]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\OLFramework\\OLFramework.Server\\OLFramework.Utils\\OLFramework.Utils.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\OLFramework\\OLFramework.Server\\OLFramework.Utils\\OLFramework.Utils.csproj",
+        "projectName": "OLFramework.Utils",
+        "projectPath": "D:\\OLFramework\\OLFramework.Server\\OLFramework.Utils\\OLFramework.Utils.csproj",
+        "packagesPath": "C:\\Users\\29530\\.nuget\\packages\\",
+        "outputPath": "D:\\OLFramework\\OLFramework.Server\\OLFramework.Utils\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\29530\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "OLFramework.Core/1.0.0": {
+        "dependencies": {
+          "MemoryPack.Generator": "1.21.1",
+          "OLFramework.Structs": "1.0.0",
+          "kcp2k": "1.0.0",
+          "MemoryPack.Core": "1.0.0.0",
+          "MemoryPack": "1.0.0.0"
+        },
+        "runtime": {
+          "OLFramework.Core.dll": {}
+        }
+      },
+      "MemoryPack.Generator/1.21.1": {},
+      "kcp2k/1.0.0": {
+        "runtime": {
+          "kcp2k.dll": {}
+        }
+      },
+      "OLFramework.Structs/1.0.0": {
+        "runtime": {
+          "OLFramework.Structs.dll": {}
+        }
+      },
+      "MemoryPack.Core/1.0.0.0": {
+        "runtime": {
+          "MemoryPack.Core.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "MemoryPack/1.0.0.0": {
+        "runtime": {
+          "MemoryPack.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "OLFramework.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "MemoryPack.Generator/1.21.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-kin3y4wUfzognJB2L8yVLekugeyFxsEWiqgsUcTWEMFumGHuklBtltI7AVdHcUNSFvycC98xdCNG8GauHfxv4Q==",
+      "path": "memorypack.generator/1.21.1",
+      "hashPath": "memorypack.generator.1.21.1.nupkg.sha512"
+    },
+    "kcp2k/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "OLFramework.Structs/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "MemoryPack.Core/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "MemoryPack/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
