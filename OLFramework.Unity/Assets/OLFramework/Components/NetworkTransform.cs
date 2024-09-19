@@ -35,28 +35,28 @@ public partial class  NetworkTransform : MonoBehaviour
 		
 	}
 
-	private void Setpos(object value)
+	private void Setpos(Vector3 value)
 	{
 		Debug.Log("Network Set Pos");
 		if (value != null)
 		{
-			transform.position = (Vector3)value;
+			transform.position = value;
 		}
 	}
 
-	private void Setrot(object value)
+	private void Setrot(Vector3 value)
 	{
 		if (value != null)
 		{
-			transform.eulerAngles = (Vector3)value;
+			transform.eulerAngles = value;
 		}
 	}
 
-	private void Setscale(object value)
+	private void Setscale(Vector3 value)
 	{
 		if (value != null)
 		{
-			transform.localScale = (Vector3)value;
+			transform.localScale = value;
 		}
 	}
 

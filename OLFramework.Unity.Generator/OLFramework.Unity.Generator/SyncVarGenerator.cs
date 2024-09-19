@@ -1,7 +1,5 @@
 ﻿using Microsoft.CodeAnalysis;
 using Microsoft.CodeAnalysis.CSharp.Syntax;
-using System;
-using System.Linq;
 using System.Text;
 
 namespace OLFramework.Generator
@@ -14,6 +12,7 @@ namespace OLFramework.Generator
 		{
 			foreach (var tree in context.Compilation.SyntaxTrees)
 			{
+				context.AddSource("test.g", "//test");
 				var root = tree.GetRoot();
 				var classNodes = root.DescendantNodes().OfType<ClassDeclarationSyntax>();
 				foreach (var node in classNodes)
@@ -40,6 +39,7 @@ namespace OLFramework.Generator
 		private string GenerateSyncVar(ClassDeclarationSyntax classNode)
 		{
 			StringBuilder sb = new StringBuilder();
+			sb.AppendLine("//auto generated");
 			if (classNode.Parent == null) return "";
 			foreach(var usingNode in classNode.Parent.DescendantNodes().OfType<UsingDirectiveSyntax>())
 			{
@@ -53,13 +53,20 @@ namespace OLFramework.Generator
 			sb.AppendLine("\t{");
 			foreach (var field in classNode.ChildNodes().OfType<FieldDeclarationSyntax>())
 			{
-				if (field.Declaration.Type.ToString() == "SyncVar")
+				foreach(var variableDef in field.ChildNodes().OfType<VariableDeclarationSyntax>())
 				{
-					foreach (var varNode in field.Declaration.Variables) {
-						string varName = varNode.Identifier.ToString();
-						sb.AppendLine($"\t\t{varName} = new SyncVar(\"{varName}\",gameObject,Set{varName});");
+					string type_name = variableDef.ChildNodes().OfType<GenericNameSyntax>().First().Identifier.ToString();
+					string argT = variableDef.ChildNodes().OfType<TypeArgumentListSyntax>().First()
+						.ChildNodes().OfType<IdentifierNameSyntax>().First().Identifier.ToString();
+					if (type_name == "SyncVar")
+					{
+						foreach(var variable in variableDef.ChildNodes().OfType<VariableDeclaratorSyntax>())
+						{
+							string varName = variable.Identifier.ToString();
+							sb.AppendLine($"\t\t{varName} = new SyncVar<{argT}>(\"{varName}\",GetComponent<NetworkIdentify>(),Set{varName})");
+						}
 					}
-				}
+                }
 			}
 			sb.AppendLine("\t}");
 			sb.AppendLine("}");

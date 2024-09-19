@@ -8,3 +8,4 @@ D:\OLFramework\OLFramework.Unity.Generator\OLFramework.Unity.Generator\obj\Relea
 D:\OLFramework\OLFramework.Unity.Generator\OLFramework.Unity.Generator\obj\Release\netstandard2.0\OLFramework.Unity.Generator.csproj.CoreCompileInputs.cache
 D:\OLFramework\OLFramework.Unity.Generator\OLFramework.Unity.Generator\obj\Release\netstandard2.0\OLFramework.Unity.Generator.dll
 D:\OLFramework\OLFramework.Unity.Generator\OLFramework.Unity.Generator\obj\Release\netstandard2.0\OLFramework.Unity.Generator.pdb
+D:\OLFramework\OLFramework.Unity.Generator\OLFramework.Unity.Generator\obj\Release\netstandard2.0\OLFramework.Unity.Generator.sourcelink.json

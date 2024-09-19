@@ -1,5 +1,7 @@
 fileFormatVersion: 2
 guid: bfa3014affe840a469a6479be83e1980
+labels:
+- RoslynAnalyzer
 PluginImporter:
   externalObjects: {}
   serializedVersion: 2
@@ -8,8 +10,8 @@ PluginImporter:
   defineConstraints: []
   isPreloaded: 0
   isOverridable: 0
-  isExplicitlyReferenced: 0
-  validateReferences: 1
+  isExplicitlyReferenced: 1
+  validateReferences: 0
   platformData:
   - first:
       : Any

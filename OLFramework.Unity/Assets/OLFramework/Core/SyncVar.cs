@@ -40,11 +40,11 @@ namespace OLFramework.Core
         /// <summary>
         /// 从网络向本地同步所触发的函数，一般不能为空
         /// </summary>
-        public Action<object> OnNetwrokSet { get; private set; }
+        public Action<T> OnNetwrokSet { get; private set; }
         public T? value { get; private set; }
 
 
-        public SyncVar(string name,NetworkIdentify networkIdentify, Action<object> onNetwrokSet)
+        public SyncVar(string name,NetworkIdentify networkIdentify, Action<T> onNetwrokSet)
         {
             NameHash = name.Hash();
             this.networkIdentify = networkIdentify;
@@ -79,7 +79,7 @@ namespace OLFramework.Core
             {
                 //从网络向本地同步
                 this.value = (T)value;
-                OnNetwrokSet(value);
+                OnNetwrokSet(this.value);
                 isChanged = false;
             }
         }

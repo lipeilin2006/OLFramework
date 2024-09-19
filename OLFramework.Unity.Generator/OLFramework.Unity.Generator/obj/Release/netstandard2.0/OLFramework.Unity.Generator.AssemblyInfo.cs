@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("OLFramework.Unity.Generator")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1623bf9d1645d68203189d9cd86816103bf339cc")]
 [assembly: System.Reflection.AssemblyProductAttribute("OLFramework.Unity.Generator")]
 [assembly: System.Reflection.AssemblyTitleAttribute("OLFramework.Unity.Generator")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
