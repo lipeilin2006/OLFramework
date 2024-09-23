@@ -12,8 +12,8 @@ public partial class  NetworkTransform : MonoBehaviour
     public float rotAccuracy = 0.5f;
     [Range(0.1f, 2f)]
     public float scaleAccuracy = 0.1f;
-    //position
-    SyncVar<Vector3> pos;
+	//position
+	SyncVar<Vector3> pos;
 	//rotation
     SyncVar<Vector3> rot;
 	//scale
@@ -24,12 +24,6 @@ public partial class  NetworkTransform : MonoBehaviour
 		InitSyncVars();
 		Debug.Log("InitSyncVar");
 	}
-	private void InitSyncVars()
-	{
-		pos = new("pos", GetComponent<NetworkIdentify>(), Setpos);
-		rot = new("rot", GetComponent<NetworkIdentify>(), Setrot);
-		scale = new("scale", GetComponent<NetworkIdentify>(), Setscale);
-    }
 	private void Start()
 	{
 		

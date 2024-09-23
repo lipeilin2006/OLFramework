@@ -1,0 +1,11 @@
+D:\OLFramework\OLFramework.Generator\OLFramework.Generator\bin\Debug\netstandard2.0\OLFramework.Generator.deps.json
+D:\OLFramework\OLFramework.Generator\OLFramework.Generator\bin\Debug\netstandard2.0\OLFramework.Generator.dll
+D:\OLFramework\OLFramework.Generator\OLFramework.Generator\bin\Debug\netstandard2.0\OLFramework.Generator.pdb
+D:\OLFramework\OLFramework.Generator\OLFramework.Generator\obj\Debug\netstandard2.0\OLFramework.Generator.csproj.AssemblyReference.cache
+D:\OLFramework\OLFramework.Generator\OLFramework.Generator\obj\Debug\netstandard2.0\OLFramework.Generator.GeneratedMSBuildEditorConfig.editorconfig
+D:\OLFramework\OLFramework.Generator\OLFramework.Generator\obj\Debug\netstandard2.0\OLFramework.Generator.AssemblyInfoInputs.cache
+D:\OLFramework\OLFramework.Generator\OLFramework.Generator\obj\Debug\netstandard2.0\OLFramework.Generator.AssemblyInfo.cs
+D:\OLFramework\OLFramework.Generator\OLFramework.Generator\obj\Debug\netstandard2.0\OLFramework.Generator.csproj.CoreCompileInputs.cache
+D:\OLFramework\OLFramework.Generator\OLFramework.Generator\obj\Debug\netstandard2.0\OLFramework.Generator.sourcelink.json
+D:\OLFramework\OLFramework.Generator\OLFramework.Generator\obj\Debug\netstandard2.0\OLFramework.Generator.dll
+D:\OLFramework\OLFramework.Generator\OLFramework.Generator\obj\Debug\netstandard2.0\OLFramework.Generator.pdb

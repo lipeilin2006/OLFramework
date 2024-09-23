@@ -145,33 +145,33 @@ OLFramework.Server/artifacts/
 
 ## OLFramework.Unity.Generator
 # Build results
-OLFramework.Unity.Generator/[Dd]ebug/
-OLFramework.Unity.Generator/[Dd]ebugPublic/
-OLFramework.Unity.Generator/[Rr]elease/
-OLFramework.Unity.Generator/[Rr]eleases/
-OLFramework.Unity.Generator/x64/
-OLFramework.Unity.Generator/x86/
-OLFramework.Unity.Generator/[Ww][Ii][Nn]32/
-OLFramework.Unity.Generator/[Aa][Rr][Mm]/
-OLFramework.Unity.Generator/[Aa][Rr][Mm]64/
-OLFramework.Unity.Generator/bld/
-OLFramework.Unity.Generator/[Bb]in/
-OLFramework.Unity.Generator/[Oo]bj/
-OLFramework.Unity.Generator/[Ll]og/
-OLFramework.Unity.Generator/[Ll]ogs/
+OLFramework.Generator/[Dd]ebug/
+OLFramework.Generator/[Dd]ebugPublic/
+OLFramework.Generator/[Rr]elease/
+OLFramework.Generator/[Rr]eleases/
+OLFramework.Generator/x64/
+OLFramework.Generator/x86/
+OLFramework.Generator/[Ww][Ii][Nn]32/
+OLFramework.Generator/[Aa][Rr][Mm]/
+OLFramework.Generator/[Aa][Rr][Mm]64/
+OLFramework.Generator/bld/
+OLFramework.Generator/[Bb]in/
+OLFramework.Generator/[Oo]bj/
+OLFramework.Generator/[Ll]og/
+OLFramework.Generator/[Ll]ogs/
 
 # Visual Studio 2015/2017 cache/options directory
-OLFramework.Unity.Generator/.vs/
+OLFramework.Generator/.vs/
 # Uncomment if you have tasks that create the project's static files in wwwroot
 #wwwroot/
 
 # Benchmark Results
-OLFramework.Unity.Generator/BenchmarkDotNet.Artifacts/
+OLFramework.Generator/BenchmarkDotNet.Artifacts/
 
 # .NET Core
-OLFramework.Unity.Generator/project.lock.json
-OLFramework.Unity.Generator/project.fragment.lock.json
-OLFramework.Unity.Generator/artifacts/
+OLFramework.Generator/project.lock.json
+OLFramework.Generator/project.fragment.lock.json
+OLFramework.Generator/artifacts/
 
 
 # Visual Studio profiler
